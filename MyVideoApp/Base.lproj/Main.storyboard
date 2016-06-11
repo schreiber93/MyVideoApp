@@ -136,7 +136,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My Videos" id="UuR-Nd-O1p">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="7Xm-9q-o1m"/>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="7Xm-9q-o1m">
+                            <connections>
+                                <segue destination="DLH-s8-CGE" kind="presentation" id="ZNI-6M-jZU"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Pjq-bt-CR5">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" id="hEN-Yu-q0B"/>
@@ -146,7 +150,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DRi-hk-1iH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1385" y="451"/>
+            <point key="canvasLocation" x="1220" y="451"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Cm1-c2-rBi">
@@ -195,7 +199,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9p-8l-XhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663" y="451"/>
+            <point key="canvasLocation" x="932" y="439"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
