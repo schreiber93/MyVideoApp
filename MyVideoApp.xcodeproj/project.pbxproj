@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E8341D1D0C54CA0068DECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8341C1D0C54CA0068DECB /* AppDelegate.swift */; };
+		90E8341F1D0C54CA0068DECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8341E1D0C54CA0068DECB /* ViewController.swift */; };
+		90E834221D0C54CA0068DECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E834201D0C54CA0068DECB /* Main.storyboard */; };
+		90E834251D0C54CA0068DECB /* MyVideoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E834231D0C54CA0068DECB /* MyVideoApp.xcdatamodeld */; };
+		90E834271D0C54CA0068DECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E834261D0C54CA0068DECB /* Assets.xcassets */; };
+		90E8342A1D0C54CA0068DECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E834281D0C54CA0068DECB /* LaunchScreen.storyboard */; };
+		90E834331D0C55940068DECB /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E834311D0C55940068DECB /* Video+CoreDataProperties.swift */; };
+		90E834341D0C55940068DECB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E834321D0C55940068DECB /* Video.swift */; };
+		90E834361D0C5C680068DECB /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E834351D0C5C680068DECB /* VideoTableViewController.swift */; };
+		90E834381D0C61E50068DECB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E834371D0C61E50068DECB /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90E834191D0C54CA0068DECB /* MyVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E8341C1D0C54CA0068DECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90E8341E1D0C54CA0068DECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90E834211D0C54CA0068DECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E834241D0C54CA0068DECB /* MyVideoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVideoApp.xcdatamodel; sourceTree = "<group>"; };
+		90E834261D0C54CA0068DECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E834291D0C54CA0068DECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E8342B1D0C54CA0068DECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E834311D0C55940068DECB /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		90E834321D0C55940068DECB /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		90E834351D0C5C680068DECB /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		90E834371D0C61E50068DECB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E834161D0C54CA0068DECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E834101D0C54CA0068DECB = {
+			isa = PBXGroup;
+			children = (
+				90E834311D0C55940068DECB /* Video+CoreDataProperties.swift */,
+				90E834321D0C55940068DECB /* Video.swift */,
+				90E8341B1D0C54CA0068DECB /* MyVideoApp */,
+				90E8341A1D0C54CA0068DECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90E8341A1D0C54CA0068DECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E834191D0C54CA0068DECB /* MyVideoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E8341B1D0C54CA0068DECB /* MyVideoApp */ = {
+			isa = PBXGroup;
+			children = (
+				90E8341C1D0C54CA0068DECB /* AppDelegate.swift */,
+				90E8341E1D0C54CA0068DECB /* ViewController.swift */,
+				90E834201D0C54CA0068DECB /* Main.storyboard */,
+				90E834261D0C54CA0068DECB /* Assets.xcassets */,
+				90E834281D0C54CA0068DECB /* LaunchScreen.storyboard */,
+				90E8342B1D0C54CA0068DECB /* Info.plist */,
+				90E834231D0C54CA0068DECB /* MyVideoApp.xcdatamodeld */,
+				90E834351D0C5C680068DECB /* VideoTableViewController.swift */,
+				90E834371D0C61E50068DECB /* MainViewController.swift */,
+			);
+			path = MyVideoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E834181D0C54CA0068DECB /* MyVideoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E8342E1D0C54CA0068DECB /* Build configuration list for PBXNativeTarget "MyVideoApp" */;
+			buildPhases = (
+				90E834151D0C54CA0068DECB /* Sources */,
+				90E834161D0C54CA0068DECB /* Frameworks */,
+				90E834171D0C54CA0068DECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVideoApp;
+			productName = MyVideoApp;
+			productReference = 90E834191D0C54CA0068DECB /* MyVideoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E834111D0C54CA0068DECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					90E834181D0C54CA0068DECB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 27QL4QEH68;
+					};
+				};
+			};
+			buildConfigurationList = 90E834141D0C54CA0068DECB /* Build configuration list for PBXProject "MyVideoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E834101D0C54CA0068DECB;
+			productRefGroup = 90E8341A1D0C54CA0068DECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E834181D0C54CA0068DECB /* MyVideoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E834171D0C54CA0068DECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E8342A1D0C54CA0068DECB /* LaunchScreen.storyboard in Resources */,
+				90E834271D0C54CA0068DECB /* Assets.xcassets in Resources */,
+				90E834221D0C54CA0068DECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E834151D0C54CA0068DECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E834381D0C61E50068DECB /* MainViewController.swift in Sources */,
+				90E834251D0C54CA0068DECB /* MyVideoApp.xcdatamodeld in Sources */,
+				90E834361D0C5C680068DECB /* VideoTableViewController.swift in Sources */,
+				90E8341F1D0C54CA0068DECB /* ViewController.swift in Sources */,
+				90E8341D1D0C54CA0068DECB /* AppDelegate.swift in Sources */,
+				90E834331D0C55940068DECB /* Video+CoreDataProperties.swift in Sources */,
+				90E834341D0C55940068DECB /* Video.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90E834201D0C54CA0068DECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E834211D0C54CA0068DECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E834281D0C54CA0068DECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E834291D0C54CA0068DECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E8342C1D0C54CA0068DECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E8342D1D0C54CA0068DECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E8342F1D0C54CA0068DECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVideoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyVideoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90E834301D0C54CA0068DECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyVideoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyVideoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E834141D0C54CA0068DECB /* Build configuration list for PBXProject "MyVideoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E8342C1D0C54CA0068DECB /* Debug */,
+				90E8342D1D0C54CA0068DECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E8342E1D0C54CA0068DECB /* Build configuration list for PBXNativeTarget "MyVideoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E8342F1D0C54CA0068DECB /* Debug */,
+				90E834301D0C54CA0068DECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90E834231D0C54CA0068DECB /* MyVideoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90E834241D0C54CA0068DECB /* MyVideoApp.xcdatamodel */,
+			);
+			currentVersion = 90E834241D0C54CA0068DECB /* MyVideoApp.xcdatamodel */;
+			path = MyVideoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90E834111D0C54CA0068DECB /* Project object */;
+}
